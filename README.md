@@ -1,6 +1,6 @@
 # stock_analysis
 
-The Stock Price Viewer and Predictor is a R web app created with the Shiny package and can be used to view prices of any single stock through user chosen start and end dates.  The app also allows users to acquire predicted stock prices for the following four years
+The Stock Price Viewer and Predictor is a R web app created with the Shiny package and can be used to view prices of any single stock through user chosen start and end dates.  The app also allows users to acquire predicted stock prices for the following two years.
 
 ## Installation
 
