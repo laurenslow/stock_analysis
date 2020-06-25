@@ -64,5 +64,7 @@ The second tab of the web application, titled "One Prediction" gives a single 2 
 
 The third tab of the web application, titled "Iterated Predictions" gives n 2 year predictions of the price of a chosen stock.  The user can input the number of simulated predictions they would like and the model will graph all of the predictions in one plot.  The more predictions the user requests in the "Set iterations"  bar, the greater the likelihood the model outputs an accurate prediction, however, 2 < n < 1000, based on the way the model is constructed.  
 
+Note: since the model is randomly collecting data from previous prices within a given stock symbol, each simulation will be different.
+
 ## Authors and Acknowledgement
 Tool developed by Lauren Low with help from Cody Murphey.
