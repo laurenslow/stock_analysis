@@ -56,7 +56,13 @@ server <- shinyServer(function(input, output) {
 ```
 
 ## Usage
-To manually run this web application, R and RStudio must be downloaded and installed.  Once both programs are available on your device, the application can be run by either copying and pasting the entire code chunk into the console on the bottom of the window or by clicking the green arrow near the top right corner of the chunk.  The web application will take a minute to gather data and run simulations.  
+To manually run this web application, R and RStudio must be downloaded and installed.  Once both programs are available on your device, the application can be run by either copying and pasting the entire code chunk from the comined.Rmd file into the console on the bottom of the window or by clicking the green arrow near the top right corner of the chunk.  The web application will take a minute to gather data and run simulations.  
+
+In the first tab of the web application, titled "Current Stock Chart", users can view the price and volume data for any given stock between two dates.  Price indicates the adjusted monetary value of the stock on any given day while volume indicates the amount of stock sold on any given day.  A green volume bar represents an up-day, where the opening price of the stock is lower than the closing price while an orange volume bar represents a down-day, where the opening price of the stock is higher than the closing price.  
+
+The second tab of the web application, titled "One Prediction" gives a single 2 year prediction of the price of a chosen stock.  The prediction is based on a random walk model, which develops a prediction based on stock price data from the given input dates.  
+
+The third tab of the web application, titled "Iterated Predictions" gives n 2 year predictions of the price of a chosen stock.  The user can input the number of simulated predictions they would like and the model will graph all of the predictions in one plot.  The more predictions the user requests in the "Set iterations"  bar, the greater the likelihood the model outputs an accurate prediction, however, 2 < n < 1000, based on the way the model is constructed.  
 
 ## Authors and Acknowledgement
 Tool developed by Lauren Low with help from Cody Murphey.
